@@ -4,8 +4,12 @@
   "description": "Generate PPT slides in 11 visual styles using nanobanana2",
   "author": "AAAAAAAJ",
   "license": "MIT",
-  "repository": "https://github.com/AAAAAAAJ/slides",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AAAAAAAJ/slides.git"
+  },
   "homepage": "https://github.com/AAAAAAAJ/slides#readme",
+  "bugs": "https://github.com/AAAAAAAJ/slides/issues",
   "type": "skill",
   "main": "skills.md",
   "files": [
@@ -13,7 +17,8 @@
     "README.md",
     "PROMPTS.md",
     "CLAUDE.md",
-    "LICENSE"
+    "LICENSE",
+    ".openclaw/"
   ],
   "keywords": [
     "ppt",
@@ -22,7 +27,8 @@
     "image-generation",
     "prompts",
     "design",
-    "302.ai"
+    "302.ai",
+    "claude-code"
   ],
   "capabilities": {
     "content_transformation": "Expert at transforming complex knowledge into digestible content",
@@ -35,5 +41,8 @@
   "usage": {
     "install": "npx skills add https://github.com/AAAAAAAJ/slides",
     "example": "Generate a PPT slide in retro-pop style about Y Combinator"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\""
   }
 }
