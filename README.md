@@ -1,6 +1,6 @@
 # Style Prompt Studio
 
-> Generate multi-style PPT slides with AI
+> Generate multi-style PPT slides with AI - Direct prompts for nanobanana2
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -9,100 +9,86 @@
 ## Core Capabilities
 
 * **Expert at transforming complex professional knowledge into digestible content**
-
 * **Deep search platform upvoted notes** - Quickly extract viral content logic
-
 * **Skilled in summarization and analogies** - Make complex topics accessible
-
 * **Visual-first approach** - Leverage graphics for better comprehension
-
 * **Data-driven strategy** - Include specific numbers in each module when needed
-
 * **Golden quotes summary** - Highlight key takeaways when necessary
 
 ---
 
-## Quick Start
+## Quick Start (No Code Required)
 
-### 1. Setup Environment
+### Step 1: Copy a Prompt
+Copy any style prompt from [PROMPTS.md](PROMPTS.md)
 
-```bash
-# Create virtual environment
-python3 -m venv .venv
-source .venv/bin/activate
+### Step 2: Customize
+Replace placeholders with your content:
+- `{title}` → Your title
+- `{subtitle}` → Your subtitle
+- `{stats}` → Your data points
 
-# Install dependencies
-pip install requests
-```
-
-### 2. Set API Key
-
-Get your 302.ai API Key: https://app.inference.sh/settings/keys
-
-```bash
-export API_KEY="sk-your-api-key-here"
-```
-
-### 3. Generate Slides
-
-```bash
-# Generate YC intro demo (11 styles, 22 images)
-python demos/yc-intro/generate.py
-
-# Generate custom slides
-python scripts/generate.py -t "Your Title" -s "Subtitle" --style all
-```
+### Step 3: Generate
+Paste into **nanobanana2** (gemini-3.1-flash-image-preview) and generate!
 
 ---
 
-## Supported Styles (11 Total)
+## Recommended Settings
 
-| Style | Description | Best For |
-|-------|-------------|----------|
-| Retro Pop Art | 70s magazine aesthetic | Creative showcases |
-| Minimalist Clean | Clean corporate look | Business presentations |
-| Cyberpunk Neon | Dark futuristic theme | Tech topics |
-| Neo-Brutalism | Bold raw design | Artistic expression |
-| Acid Graphics Y2K | Metallic chrome Y2K | Trendy content |
-| Modern Minimal Pop | Instagram pastel | Social media |
-| Swiss International | Swiss design | Professional decks |
-| Dark Editorial | NYT review style | Deep analysis |
-| Design Blueprint | Figma doc style | Technical docs |
-| Neo-Brutalist UI | Dashboard UI | SaaS products |
-| Y2K Pixel Retro | 90s pixel art | Nostalgic themes |
+| Setting | Value |
+|---------|-------|
+| **Model** | `gemini-3.1-flash-image-preview` (nanobanana2) |
+| **Resolution** | `2048*1152` (2K 16:9) |
+| **Aspect Ratio** | `16:9` |
 
 ---
 
-## PPT Generation Best Practices
+## 11 Available Styles
 
-### Content Guidelines
+| # | Style | Best For |
+|---|-------|----------|
+| 1 | Retro Pop Art | Creative showcases, brand decks |
+| 2 | Minimalist Clean | Business presentations, corporate |
+| 3 | Cyberpunk Neon | Tech topics, futuristic themes |
+| 4 | Neo-Brutalism | Artistic expression, bold statements |
+| 5 | Acid Graphics Y2K | Trendy content, youth audience |
+| 6 | Modern Minimal Pop | Social media, lightweight content |
+| 7 | Swiss International | Professional decks, high-end |
+| 8 | Dark Editorial | Deep analysis, commentary |
+| 9 | Design Blueprint | Technical docs, product specs |
+| 10 | Neo-Brutalist UI | SaaS products, dashboard demos |
+| 11 | Y2K Pixel Retro | Nostalgic themes, creative projects |
 
-1. **Title**: Keep it under 8 words, bold and clear
-2. **Subtitle**: One line explanation, max 12 words
-3. **Key Stats**: 3-5 data points maximum
-4. **Visual Balance**: Leave 30% whitespace
-5. **Font Hierarchy**: Title > Subtitle > Stats > Decorations
+---
 
-### Recommended API Settings
+## Content Guidelines
 
-```bash
-# Use nanobanana2 2K for best quality
-Model: gemini-3.1-flash-image-preview
-Resolution: 2048*1152 (2K 16:9) or higher
-Format: PNG for transparency support
+### Title
+- Max 8 words
+- Bold and clear
+
+### Subtitle
+- Max 12 words
+- One line explanation
+
+### Key Stats
+- 3-5 data points max
+- Use specific numbers
+
+### Visual Balance
+- Leave 30% whitespace
+- Font hierarchy: Title > Subtitle > Stats > Decorations
+
+---
+
+## Example Usage
+
+### Input Prompt (Retro Pop Style)
+```
+Retro pop art style PPT slide, 1970s magazine aesthetic, flat design with thick black outlines, cream beige background, Title: What is Y Combinator, Subtitle: Startup Accelerator, Stats: 2005, 4000+ companies, $600B valuation, Salmon pink, sky blue, mustard yellow, mint green accents, Geometric decorations, Bold typography, Professional presentation, 16:9
 ```
 
-### Prompt Structure
-
-```
-[Style] PPT slide, [aesthetic description],
-Title: [your title],
-Subtitle: [your subtitle],
-Key data: [stat1, stat2, stat3],
-[Color palette],
-[Decorative elements],
-Professional presentation design, 16:9
-```
+### Just paste this into nanobanana2!
 
 ---
 
@@ -110,83 +96,29 @@ Professional presentation design, 16:9
 
 ```
 slides/
-├── README.md                 # This file
-├── styles/                   # Style configurations (JSON)
-│   ├── retro-pop.json
-│   ├── minimal.json
-│   ├── cyberpunk.json
-│   └── ...
-├── demos/
-│   └── yc-intro/             # YC Demo
-│       ├── generate.py       # Demo generator
-│       ├── SHOWCASE.md       # Visual showcase
-│       └── images/           # Generated images
-└── scripts/
-    └── generate.py           # Main generator
+├── README.md           # This file
+├── PROMPTS.md          # All 11 style prompts (copy from here)
+├── styles/             # Style configurations (JSON)
+└── demos/yc-intro/     # Example outputs
+    ├── SHOWCASE.md
+    └── images/         # 22 generated samples
 ```
 
 ---
 
-## API Reference
+## Full Prompts Reference
 
-### Using nanobanana2 (Recommended for 2K+)
-
-```python
-import requests
-
-API_KEY = "sk-your-api-key"
-prompt = "Your design prompt here"
-
-# Note: Use nanobanana2 for 2K+ quality
-response = requests.post(
-    "https://api.302.ai/google/v1/models/gemini-3.1-flash-image-preview:predict",
-    headers={"Authorization": f"Bearer {API_KEY}"},
-    json={
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "responseModalities": ["IMAGE"],
-            "imageConfig": {"aspectRatio": "16:9"}
-        }
-    }
-)
-```
-
-### Using Seedream 4.0 (Alternative)
-
-```python
-response = requests.post(
-    "https://api.302.ai/ws/api/v3/bytedance/seedream-v4",
-    headers={"Authorization": f"Bearer {API_KEY}"},
-    json={
-        "prompt": prompt,
-        "size": "1920*1080",  # Or 3840*2160 for 4K
-        "enable_base64_output": True,
-        "enable_sync_mode": True
-    }
-)
-```
+See **[PROMPTS.md](PROMPTS.md)** for all 11 style prompts ready to copy-paste.
 
 ---
 
-## Examples
+## Tips for Best Results
 
-View all 11 style examples in [demos/yc-intro/SHOWCASE.md](demos/yc-intro/SHOWCASE.md)
-
----
-
-## Tips for Better Results
-
-1. **Be specific with style descriptors** - "thick black outlines" vs "bold lines"
-2. **Include aspect ratio** - Always specify "16:9" for PPT
-3. **Limit text in prompts** - AI struggles with long text
-4. **Use color names + hex codes** - "salmon pink #FF6B6B"
-5. **Iterate on prompts** - Small tweaks yield different results
-
----
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details
+1. **Be specific** - "thick black outlines" works better than "bold lines"
+2. **Always specify 16:9** - For PPT format
+3. **Limit text** - AI handles short text better
+4. **Use color names + hex** - "salmon pink #FF6B6B"
+5. **Iterate** - Small prompt tweaks = different results
 
 ---
 
@@ -195,3 +127,9 @@ MIT License - See [LICENSE](LICENSE) for details
 - **GitHub**: https://github.com/AAAAAAAJ/slides
 - **302.ai**: https://302.ai/
 - **API Docs**: https://doc.302.ai/
+
+---
+
+## License
+
+MIT License - See [LICENSE](LICENSE) for details
