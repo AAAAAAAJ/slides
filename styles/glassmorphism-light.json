@@ -1,0 +1,61 @@
+{
+  "name": "glassmorphism-light",
+  "display_name": "Light Glassmorphism",
+  "description": "轻盈毛玻璃拟态风格 - 明亮渐变托底、半透明磨砂卡片、细亮边框、轻空气感层级",
+  "colors": {
+    "background": "#F7FBFF",
+    "palette": ["#8FD3FF", "#8FF0E8", "#D6C4FF", "#FFC9D8", "#FFFFFF"],
+    "contrast": {
+      "black": "#102033",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "floating modular cards",
+    "margins": "48px",
+    "focus": "top-left",
+    "module_gap": "24px"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1px",
+      "color": "rgba(255,255,255,0.72)"
+    },
+    "fills": "frosted-translucent",
+    "decorations": [
+      "frosted-glass-cards",
+      "blurred-gradient-orbs",
+      "thin-light-rims",
+      "floating-panels",
+      "soft-refraction"
+    ],
+    "data_viz": [
+      "glass-stat-cards",
+      "translucent-metric-panels",
+      "soft-line-charts"
+    ]
+  },
+  "texture": {
+    "type": "frosted-glass",
+    "noise": false,
+    "halftone": false,
+    "blur": true
+  },
+  "typography": {
+    "headers": "Inter / SF Pro Display / Helvetica Neue",
+    "body": "Inter / SF Pro Text / Noto Sans",
+    "numbers": "SF Mono / JetBrains Mono",
+    "style": "clean modern sans-serif",
+    "sizes": {
+      "hero": "50-64pt",
+      "title": "32-40pt",
+      "subtitle": "18-24pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Light glassmorphism PPT slide, bright airy frosted glass aesthetic, soft white background with blurred gradient shapes {background}, translucent rounded cards, thin luminous white borders, subtle drop shadows, layered floating panels, accent colors {palette}, clean modern sans-serif typography, premium product presentation, spacious composition, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "dark cyberpunk, grunge, heavy texture, thick black outlines, brutalist blocks, muddy colors, realistic people, cluttered layout, harsh shadows, opaque cards, low contrast text",
+  "tags": ["glassmorphism", "light", "frosted-glass", "translucent", "premium", "ui", "saas", "airy"]
+}

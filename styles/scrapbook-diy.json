@@ -1,0 +1,63 @@
+{
+  "name": "scrapbook-diy",
+  "display_name": "Scrapbook DIY Vibe",
+  "description": "剪贴板手作风格 - 撕纸、胶带、贴纸、照片切片与手写批注组合的年轻社交海报语言",
+  "colors": {
+    "background": "#F7F1E8",
+    "palette": ["#FF7A59", "#FFD766", "#6EC5FF", "#72D572", "#FF5FA2"],
+    "contrast": {
+      "black": "#111111",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "anti-grid collage",
+    "margins": "44px",
+    "focus": "center-left",
+    "module_gap": "18px",
+    "format": "16:9 presentation slide"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1-2px",
+      "color": "#111111"
+    },
+    "fills": "paper-cut flat collage",
+    "decorations": [
+      "torn-paper-edges",
+      "transparent-tape-corners",
+      "sticker-badges",
+      "marker-doodles",
+      "handwritten-notes",
+      "polaroid-photo-cutouts"
+    ],
+    "data_viz": [
+      "paper-stat-labels",
+      "sticker-number-badges",
+      "cutout-quote-cards"
+    ]
+  },
+  "texture": {
+    "type": "paper-grain",
+    "noise": true,
+    "halftone": false,
+    "paper_fiber": true
+  },
+  "typography": {
+    "headers": "Arial Black / Helvetica Bold / Franklin Gothic Heavy",
+    "body": "Helvetica / Arial / Inter",
+    "numbers": "Archivo Black / Impact",
+    "accent_handwriting": "Marker Felt / handwritten marker style",
+    "sizes": {
+      "hero": "44-60pt",
+      "title": "30-38pt",
+      "subtitle": "18-22pt",
+      "body": "15-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Scrapbook DIY vibe slide design, poster-like collage layout, torn paper cutouts, transparent tape corners, sticker badges, handwritten annotations, layered polaroid photo frames, off-white paper board background {background}, saturated social accents {palette}, anti-grid composition, messy but readable hierarchy, youthful social app poster feeling, bold sans-serif mixed with marker-note typography, authentic handmade energy, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "corporate template, sterile symmetry, glossy 3D render, photorealistic studio scene, luxury minimalism, perfect grid dashboard, metallic chrome, dark cyberpunk glow, soft corporate gradients",
+  "tags": ["scrapbook", "diy", "collage", "paper-texture", "stickers", "handwritten", "youth", "social", "poster"]
+}

@@ -41,7 +41,9 @@
 
 ---
 
-## 11 Available Styles with Examples
+## 19 Available Styles with Examples
+
+> Note: The first 11 examples are the original Seedream 4.0 outputs. The added 8 examples use Nano Banana 2 / Pro. For the new 8 styles, the current `EN / CN` entries temporarily reuse the same image.
 
 ### 1. 🎨 Retro Pop Art (复古波普)
 
@@ -175,6 +177,106 @@ Y2K pixel retro PPT slide, 1990s aesthetic, Dark background with noise texture, 
 
 ---
 
+## Extended Styles
+
+These 8 additional presets are optimized for single-slide, poster-like image generation:
+
+### 12. 🧩 Bento Grid (便当盒网格)
+
+**Best for:** 产品总览、功能亮点、KPI 组合页
+
+```
+Bento Grid style PPT slide, modular rounded-rectangle card layout filling the full 16:9 frame, asymmetric but tightly aligned grid composition, bold title in the primary hero block, subtitle below, 3 to 5 key statistics distributed across smaller cards, product screenshot or icon module, clean modern spacing, soft neutral background, crisp card boundaries, subtle shadows, premium Apple-style product showcase aesthetic, colors: off-white #F6F4EF, graphite #1F2937, cobalt blue #4F7CFF, mint #6FD3C0, soft orange #FFB36A, highly structured information hierarchy, polished presentation design, 16:9
+```
+
+![Bento Grid Example](demos/yc-intro/images/12-bento-grid-en.png)
+
+---
+
+### 13. ✂️ Scrapbook DIY Vibe (剪贴板手作风格)
+
+**Best for:** 年轻品牌、社交产品、创作者内容、生活方式主题
+
+```
+Scrapbook DIY vibe PPT slide, poster-like handmade collage composition, off-white paper board background with subtle paper grain, hand-cut paper blocks with torn edges, transparent tape corners, sticker badges, doodled arrows, handwritten marker notes, layered polaroid-style photo cutouts, bold title on a pasted headline card, subtitle below on a small note strip, 3 to 5 key stats shown as clipped paper labels, saturated youth accents: tomato orange #FF7A59, butter yellow #FFD766, sky blue #6EC5FF, grass green #72D572, hot pink #FF5FA2, anti-grid layout, messy but readable hierarchy, social app launch poster energy, authentic DIY mood, bold sans-serif typography mixed with handwritten highlights, creative editorial presentation design, 16:9
+```
+
+![Scrapbook DIY Example](demos/yc-intro/images/13-scrapbook-diy-en.png)
+
+---
+
+### 14. 🌌 Aurora UI (极光流体界面)
+
+**Best for:** AI 产品发布、高端 SaaS、开发者工具、系统概览
+
+```
+Aurora UI style PPT slide, premium AI-native interface aesthetic, deep graphite background with cinematic mesh gradient aurora glow flowing behind dark frosted glass panels, bold title text at top left, subtitle below, 3 to 5 key statistics in translucent metric cards, colors: electric blue #4DA3FF, cyan #66F5FF, violet #8B5CFF, magenta #FF5FD2, soft teal #4DE2C5, precise bento-style layout, thin luminous borders, subtle grain to avoid banding, ambient bloom, floating gradient orb accents, crisp modern sans-serif typography, Linear Stripe Vercel inspired product presentation, high-end SaaS hero slide, 16:9
+```
+
+![Aurora UI Example](demos/yc-intro/images/14-aurora-ui-en.png)
+
+---
+
+### 15. 🫧 Light Glassmorphism (轻盈毛玻璃拟态)
+
+**Best for:** 产品封面、现代 dashboard、轻盈科技感演示页
+
+```
+Light glassmorphism PPT slide, airy translucent interface design, soft frosted glass panels floating over a vibrant blurred gradient background, title text at top, subtitle below, 3 to 5 key stats in semi-transparent cards, thin luminous white borders, subtle refraction, layered depth hierarchy, colors: icy white #F7FBFF, sky blue #7CC7FF, aqua #7FE7DD, lavender #C6B5FF, soft coral #FFB7C5, clean modern sans-serif typography, elegant product presentation, spacious composition, premium macOS Big Sur and Windows 11 inspired aesthetic, 16:9
+```
+
+![Light Glassmorphism Example](demos/yc-intro/images/15-glassmorphism-light-en.png)
+
+---
+
+### 16. 🌑 Dark Glassmorphism (暗黑玻璃拟态)
+
+**Best for:** AI control plane、企业 SaaS、自动化与智能体主题
+
+```
+Dark glassmorphism PPT slide, premium AI control-plane aesthetic, deep obsidian background with blurred aurora glow under smoked frosted glass panels, bold title text, subtitle below, 3 to 5 KPI cards in translucent dashboard modules, thin luminous white borders, subtle cyan and violet highlights, soft reflections, layered depth, high-contrast modern sans-serif typography, elegant enterprise SaaS and copilot interface design, cinematic yet clean, 16:9
+```
+
+![Dark Glassmorphism Example](demos/yc-intro/images/16-dark-glassmorphism-en.png)
+
+---
+
+### 17. 🌍 Frutiger Aero (乐观科技风)
+
+**Best for:** 2000s 科技乌托邦、环保科技、乐观未来主义表达
+
+```
+Frutiger Aero style PPT slide, optimistic 2000s tech-utopia aesthetic, glossy translucent glass panels floating over an aqua sky and fresh green field background, bold title text, subtitle below, 3 to 5 key statistics displayed in rounded glossy cards, bright clean colors: aqua blue #7FD8FF, sky cyan #BFEFFF, grass green #7ED957, leaf green #B7F07A, pure white #FFFFFF, soft lens flare, bokeh light circles, water bubbles, gentle wave swooshes, cloudlike highlights, humanist sans-serif typography, polished corporate technology presentation, clean depth, cheerful and futuristic but friendly, Windows Vista Aero and early eco-tech ad mood, 16:9
+```
+
+![Frutiger Aero Example](demos/yc-intro/images/17-frutiger-aero-en.png)
+
+---
+
+### 18. 🍬 Claymorphism (黏土拟态)
+
+**Best for:** onboarding、教育、gamification、友好型产品介绍
+
+```
+Claymorphism style PPT slide, soft chunky 3D clay interface, thick toy-like rounded cards, inflated pill buttons, tactile depth with bright top-left inner highlights and soft bottom-right shadows, creamy warm background, bold title text, subtitle below, 3 to 5 key statistics in colorful chunky cards, candy palette with coral #FF7A59, sky blue #6EC5FF, lemon yellow #FFD85E, mint #7EE2B8, lavender #B79CFF, bubbly icons, smooth plastic texture, friendly high-contrast presentation design, clean single-slide composition, 16:9
+```
+
+![Claymorphism Example](demos/yc-intro/images/18-claymorphism-en.png)
+
+---
+
+### 19. 🪵 Classic Deep Skeuomorphism (经典深度拟物化)
+
+**Best for:** 复古科技、仪表盘、工具机制说明、设计史主题
+
+```
+Classic deep skeuomorphic PPT slide, pre-iOS7 Apple and Mac OS X Aqua inspired interface poster, warm parchment background with stitched leather header panel, brushed aluminum control plates, glossy pill buttons, beveled switches, engraved labels, subtle wood trim, glass reflections, rich gradients, heavy inner shadows and deep drop shadows, bold title text, subtitle below, 3 to 5 key stats shown as tactile dashboard modules, iconic polished app-like composition, premium retro-tech presentation design, clear readable hierarchy, realistic material depth, 16:9
+```
+
+![Classic Deep Skeuomorphism Example](demos/yc-intro/images/19-classic-deep-skeuomorphism-en.png)
+
+---
+
 ## PPT Content Guidelines
 
 ### 内容创作原则
@@ -212,10 +314,10 @@ Y2K pixel retro PPT slide, 1990s aesthetic, Dark background with noise texture, 
 ```
 slides/
 ├── README.md           # This file
-├── PROMPTS.md          # All 11 style prompts (copy from here)
+├── PROMPTS.md          # All 19 style prompts (copy from here)
 ├── skill.json          # OpenClaw skill config
 ├── CLAUDE.md           # Skill context
-└── demos/yc-intro/images/  # 22 generated samples
+└── demos/yc-intro/images/  # 38 generated samples
 ```
 
 ---

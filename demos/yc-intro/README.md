@@ -1,6 +1,6 @@
-# YC Introduction - 11 Style Demos
+# YC Introduction - 19 Style Demos
 
-> 使用 11 种不同视觉风格生成 "什么是 Y Combinator" 主题 PPT 封面
+> 使用 19 种不同视觉风格生成 "什么是 Y Combinator" 主题 PPT 封面
 
 ---
 
@@ -39,7 +39,7 @@ open images/
 
 ---
 
-## 11 种风格 Prompt
+## 19 种风格 Prompt
 
 ### 1. Retro Pop Art (复古波普)
 ```
@@ -167,6 +167,97 @@ Isometric tech illustrations,
 VT323/pixel font style, vintage 1990s design, --ar 16:9 --style raw
 ```
 
+### 12. Bento Grid (便当盒网格)
+```
+Bento Grid style PPT slide,
+modular rounded-rectangle card layout filling the full 16:9 frame,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+3 to 5 key statistics distributed across smaller cards,
+product screenshot or icon module,
+colors: off-white #F6F4EF, graphite #1F2937, cobalt blue #4F7CFF, mint #6FD3C0, soft orange #FFB36A,
+asymmetric but tightly aligned grid, crisp card boundaries, subtle shadows,
+premium product showcase aesthetic, --ar 16:9 --style raw
+```
+
+### 13. Scrapbook DIY Vibe (剪贴板手作风格)
+```
+Scrapbook DIY vibe PPT slide,
+off-white paper board background with subtle grain,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+torn paper pieces, transparent tape corners, sticker badges,
+handwritten marker notes, layered cutout frames,
+colors: tomato orange #FF7A59, butter yellow #FFD766, sky blue #6EC5FF, grass green #72D572, hot pink #FF5FA2,
+messy but readable collage hierarchy, social launch poster energy, --ar 16:9 --style raw
+```
+
+### 14. Aurora UI (极光流体界面)
+```
+Aurora UI style PPT slide,
+deep graphite background with cinematic mesh gradient aurora glow,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+3 to 5 key statistics in translucent metric cards,
+colors: electric blue #4DA3FF, cyan #66F5FF, violet #8B5CFF, magenta #FF5FD2, soft teal #4DE2C5,
+thin luminous borders, ambient bloom, high-end SaaS hero slide, --ar 16:9 --style raw
+```
+
+### 15. Light Glassmorphism (轻盈毛玻璃拟态)
+```
+Light glassmorphism PPT slide,
+airy translucent interface design with soft frosted glass panels over a blurred gradient background,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+3 to 5 key stats in semi-transparent cards,
+colors: icy white #F7FBFF, sky blue #7CC7FF, aqua #7FE7DD, lavender #C6B5FF, soft coral #FFB7C5,
+thin luminous white borders, subtle refraction, premium product presentation, --ar 16:9 --style raw
+```
+
+### 16. Dark Glassmorphism (暗黑玻璃拟态)
+```
+Dark glassmorphism PPT slide,
+premium AI control-plane aesthetic with smoked frosted glass panels over an obsidian background,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+3 to 5 KPI cards in translucent dashboard modules,
+electric blue, cyan, violet highlights, soft reflections, layered depth,
+high-contrast enterprise SaaS interface design, --ar 16:9 --style raw
+```
+
+### 17. Frutiger Aero (乐观科技风)
+```
+Frutiger Aero style PPT slide,
+optimistic 2000s tech-utopia aesthetic,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+glossy translucent glass panels over an aqua sky and green field background,
+colors: aqua blue #7FD8FF, sky cyan #BFEFFF, grass green #7ED957, leaf green #B7F07A, pure white #FFFFFF,
+water bubbles, lens flare, bokeh circles, polished corporate technology mood, --ar 16:9 --style raw
+```
+
+### 18. Claymorphism (黏土拟态)
+```
+Claymorphism style PPT slide,
+soft chunky 3D clay interface with thick toy-like rounded cards,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+3 to 5 key statistics in colorful chunky cards,
+candy palette with coral #FF7A59, sky blue #6EC5FF, lemon yellow #FFD85E, mint #7EE2B8, lavender #B79CFF,
+inflated pill buttons, bubbly icons, playful tactile depth, --ar 16:9 --style raw
+```
+
+### 19. Classic Deep Skeuomorphism (经典深度拟物化)
+```
+Classic deep skeuomorphic PPT slide,
+pre-iOS7 Apple and Mac OS X Aqua inspired interface poster,
+Title: "What is Y Combinator",
+Subtitle: "Startup Accelerator",
+stitched leather header panel, brushed aluminum control plates, glossy pill buttons, beveled switches,
+subtle wood trim, glass reflections, rich gradients, tactile dashboard modules,
+premium retro-tech presentation design, --ar 16:9 --style raw
+```
+
 ---
 
 ## 输出目录结构
@@ -195,7 +286,23 @@ demos/yc-intro/
 │   ├── neo-brutalist-UI-en.png
 │   ├── neo-brutalist-UI-cn.png
 │   ├── Y2K-pixel-retro-90s-en.png
-│   └── Y2K-pixel-retro-90s-cn.png
+│   ├── Y2K-pixel-retro-90s-cn.png
+│   ├── 12-bento-grid-en.png
+│   ├── 12-bento-grid-cn.png
+│   ├── 13-scrapbook-diy-en.png
+│   ├── 13-scrapbook-diy-cn.png
+│   ├── 14-aurora-ui-en.png
+│   ├── 14-aurora-ui-cn.png
+│   ├── 15-glassmorphism-light-en.png
+│   ├── 15-glassmorphism-light-cn.png
+│   ├── 16-dark-glassmorphism-en.png
+│   ├── 16-dark-glassmorphism-cn.png
+│   ├── 17-frutiger-aero-en.png
+│   ├── 17-frutiger-aero-cn.png
+│   ├── 18-claymorphism-en.png
+│   ├── 18-claymorphism-cn.png
+│   ├── 19-classic-deep-skeuomorphism-en.png
+│   └── 19-classic-deep-skeuomorphism-cn.png
 ├── generate-all.sh      # 批量生成脚本
 └── README.md            # 本文档
 ```
@@ -245,6 +352,6 @@ infsh app run falai/reve --input '...'
 
 ## 下一步
 
-1. 运行生成脚本获取所有 22 张图片
+1. 运行生成脚本获取前 11 种风格图片，或手动补充新增 8 种风格图片
 2. 挑选最佳效果添加到项目示例
 3. 更新 README 展示所有风格效果

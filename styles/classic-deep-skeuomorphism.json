@@ -1,0 +1,63 @@
+{
+  "name": "classic-deep-skeuomorphism",
+  "display_name": "Classic Deep Skeuomorphism",
+  "description": "经典深度拟物化风格 - 皮革缝线、拉丝金属、木质边框、玻璃高光、厚重阴影、pre-iOS7 标志性抛光质感",
+  "colors": {
+    "background": "#E7DED0",
+    "palette": ["#6E3F24", "#B7BCC4", "#9A6A3A", "#5A6775", "#F6F1E7"],
+    "contrast": {
+      "black": "#1D1D1F",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "center-weighted control-panel",
+    "margins": "52px",
+    "focus": "center",
+    "module_gap": "20px"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1px",
+      "color": "#8E938F"
+    },
+    "fills": "material-rendered bevel gradients",
+    "decorations": [
+      "stitched-leather-panels",
+      "brushed-metal-plates",
+      "glossy-pill-buttons",
+      "beveled-switches",
+      "wood-trim",
+      "engraved-labels",
+      "glass-reflections"
+    ],
+    "data_viz": [
+      "analog-dials",
+      "metallic-stat-cards",
+      "embossed-badges"
+    ]
+  },
+  "texture": {
+    "type": "leather-metal-wood",
+    "noise": false,
+    "halftone": false,
+    "gloss": true,
+    "grain": true
+  },
+  "typography": {
+    "headers": "Helvetica Neue Bold / Myriad Pro / Lucida Grande",
+    "body": "Helvetica Neue / Arial / Lucida Grande",
+    "numbers": "DIN / Helvetica Neue Bold",
+    "sizes": {
+      "hero": "48-60pt",
+      "title": "32-40pt",
+      "subtitle": "18-24pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Classic deep skeuomorphic slide design, pre-iOS7 app polish, stitched leather, brushed metal, glossy beveled buttons, engraved labels, subtle wood trim, glass reflections, warm background {background}, tactile dashboard modules, rich gradients, heavy inner and drop shadows, readable title hierarchy, premium retro-tech presentation, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "flat design, minimalism, neumorphism, glassmorphism, brutalism, neon cyberpunk, low-detail texture, photorealistic people, messy collage, thin outlines, monochrome corporate dashboard",
+  "tags": ["skeuomorphism", "classic", "deep", "retro-ui", "leather", "brushed-metal", "wood", "glossy", "tactile"]
+}

@@ -38,6 +38,14 @@ Paste into nanobanana2 (gemini-3.1-flash-image-preview)
 | `design-blueprint` | Figma style, cyan grid, technical UI |
 | `neo-brutalist-ui` | Dashboard UI, card layout, SaaS aesthetic |
 | `y2k-pixel-retro` | 90s pixel art, CRT monitors, VT323 font |
+| `bento-grid` | Rounded modular card matrix for product and KPI slides |
+| `scrapbook-diy` | Handmade collage, tape, stickers, handwritten notes |
+| `aurora-ui` | Premium dark mesh-gradient AI-native interface aesthetic |
+| `glassmorphism-light` | Airy frosted-glass cards on blurred gradient background |
+| `dark-glassmorphism` | Smoked glass control-plane aesthetic for AI and SaaS |
+| `frutiger-aero` | Glossy 2000s eco-tech utopian glass-and-sky language |
+| `claymorphism` | Chunky toy-like 3D cards with soft shadows and candy colors |
+| `classic-deep-skeuomorphism` | Pre-iOS7 leather, metal, glass, and tactile dashboard feel |
 
 ## Recommended Settings
 
@@ -79,7 +87,7 @@ Minimalist clean design PPT slide, White background, generous whitespace, center
 ## Files
 
 - [README.md](README.md) - Main documentation with image gallery
-- [PROMPTS.md](PROMPTS.md) - All 11 style prompts (copy from here)
+- [PROMPTS.md](PROMPTS.md) - All 19 style prompts (copy from here)
 - [skill.json](skill.json) - OpenClaw skill configuration
 - [CLAUDE.md](CLAUDE.md) - Skill context for Claude
 

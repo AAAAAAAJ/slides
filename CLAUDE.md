@@ -29,7 +29,7 @@ Generate multi-style PPT slides using nanobanana2 (gemini-3.1-flash-image-previe
 - **Resolution**: `2048*1152` (2K 16:9)
 - **Endpoint**: `/google/v1/models/gemini-3.1-flash-image-preview:predict`
 
-## 11 Styles
+## 19 Styles
 
 1. `retro-pop` - 70s magazine aesthetic
 2. `minimal` - Clean corporate look
@@ -42,6 +42,14 @@ Generate multi-style PPT slides using nanobanana2 (gemini-3.1-flash-image-previe
 9. `design-blueprint` - Figma doc style
 10. `neo-brutalist-ui` - Dashboard UI
 11. `y2k-pixel-retro` - 90s pixel art
+12. `bento-grid` - Modular card matrix
+13. `scrapbook-diy` - Handmade collage vibe
+14. `aurora-ui` - Premium AI mesh-gradient interface
+15. `glassmorphism-light` - Airy frosted-glass cards
+16. `dark-glassmorphism` - Smoked glass control-plane aesthetic
+17. `frutiger-aero` - Glossy optimistic 2000s tech-utopia
+18. `claymorphism` - Chunky playful 3D cards
+19. `classic-deep-skeuomorphism` - Leather, metal, glass, tactile retro UI
 
 ## Content Guidelines
 
@@ -58,7 +66,7 @@ Generate multi-style PPT slides using nanobanana2 (gemini-3.1-flash-image-previe
 ```
 slides/
 ├── README.md           # Main documentation
-├── PROMPTS.md          # All 11 style prompts
+├── PROMPTS.md          # All 19 style prompts
 ├── skill.json          # OpenClaw skill config
 ├── styles/             # JSON style configs
 └── demos/yc-intro/images/  # 22 sample outputs

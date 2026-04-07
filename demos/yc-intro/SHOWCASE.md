@@ -1,8 +1,8 @@
-# YC Introduction Demo - 11 Style Showcase
+# YC Introduction Demo - 19 Style Showcase
 
-> 使用 11 种不同视觉风格生成的 "什么是 Y Combinator" 主题 PPT 封面
+> 使用 19 种不同视觉风格生成的 "什么是 Y Combinator" 主题 PPT 封面
 >
-> 所有图片使用 302.ai Seedream 4.0 模型生成 (1920x1080, 16:9)
+> 前 11 种图片使用 302.ai Seedream 4.0 生成；新增 8 种图片使用 Nano Banana 2 / Pro 生成，当前 EN / CN 先复用同一张图
 
 ---
 
@@ -107,13 +107,91 @@
 
 ---
 
+### 12. Bento Grid (便当盒网格)
+**特点**: 模块化圆角卡片矩阵、产品展示页、KPI 组合布局
+
+| English | 中文 |
+|---------|------|
+| ![Bento Grid EN](images/12-bento-grid-en.png) | ![Bento Grid CN](images/12-bento-grid-cn.png) |
+
+---
+
+### 13. Scrapbook DIY Vibe (剪贴板手作风格)
+**特点**: 撕纸拼贴、胶带贴纸、手写批注、年轻化海报语言
+
+| English | 中文 |
+|---------|------|
+| ![Scrapbook DIY EN](images/13-scrapbook-diy-en.png) | ![Scrapbook DIY CN](images/13-scrapbook-diy-cn.png) |
+
+---
+
+### 14. Aurora UI (极光流体界面)
+**特点**: 暗色 mesh gradient、流体极光、高端 AI / SaaS 气质
+
+| English | 中文 |
+|---------|------|
+| ![Aurora UI EN](images/14-aurora-ui-en.png) | ![Aurora UI CN](images/14-aurora-ui-cn.png) |
+
+---
+
+### 15. Light Glassmorphism (轻盈毛玻璃拟态)
+**特点**: 明亮磨砂玻璃、轻盈漂浮卡片、现代产品封面感
+
+| English | 中文 |
+|---------|------|
+| ![Light Glassmorphism EN](images/15-glassmorphism-light-en.png) | ![Light Glassmorphism CN](images/15-glassmorphism-light-cn.png) |
+
+---
+
+### 16. Dark Glassmorphism (暗黑玻璃拟态)
+**特点**: 深色毛玻璃、AI 控制台氛围、高对比高级 SaaS 美学
+
+| English | 中文 |
+|---------|------|
+| ![Dark Glassmorphism EN](images/16-dark-glassmorphism-en.png) | ![Dark Glassmorphism CN](images/16-dark-glassmorphism-cn.png) |
+
+---
+
+### 17. Frutiger Aero (乐观科技风)
+**特点**: 2000s 科技乌托邦、玻璃高光、水感气泡、天空草地
+
+| English | 中文 |
+|---------|------|
+| ![Frutiger Aero EN](images/17-frutiger-aero-en.png) | ![Frutiger Aero CN](images/17-frutiger-aero-cn.png) |
+
+---
+
+### 18. Claymorphism (黏土拟态)
+**特点**: 厚实体圆角、糖果色、玩具化 3D 质感、友好 onboarding 氛围
+
+| English | 中文 |
+|---------|------|
+| ![Claymorphism EN](images/18-claymorphism-en.png) | ![Claymorphism CN](images/18-claymorphism-cn.png) |
+
+---
+
+### 19. Classic Deep Skeuomorphism (经典深度拟物化)
+**特点**: 皮革缝线、拉丝金属、玻璃高光、复古科技实体隐喻
+
+| English | 中文 |
+|---------|------|
+| ![Classic Deep Skeuomorphism EN](images/19-classic-deep-skeuomorphism-en.png) | ![Classic Deep Skeuomorphism CN](images/19-classic-deep-skeuomorphism-cn.png) |
+
+---
+
 ## 生成信息
 
 - **模型**: bytedance/seedream-v4 (Seedream 4.0)
 - **平台**: 302.ai
 - **分辨率**: 1920x1080 (16:9)
-- **数量**: 22 张图片 (11 种风格 × 2 种语言)
+- **数量**: 38 张图片 (19 种风格 × 2 种语言)
 - **生成时间**: 2024-03-24
+
+### 新增 8 张图片说明
+
+- **风格范围**: `12` 到 `19`
+- **生成模型**: Nano Banana 2 / Pro
+- **当前处理方式**: 因为本轮只手动补了单图版本，所以 `EN / CN` 暂时复用同一张图
 
 ## 使用脚本
 
@@ -150,6 +228,14 @@ curl -O https://raw.githubusercontent.com/AAAAAAAJ/slides/main/demos/yc-intro/im
 - `styles/design-blueprint.json` - 设计蓝图
 - `styles/neo-brutalist-ui.json` - 粗野主义 UI
 - `styles/y2k-pixel-retro.json` - Y2K 像素复古
+- `styles/bento-grid.json` - 便当盒网格
+- `styles/scrapbook-diy.json` - 剪贴板手作风格
+- `styles/aurora-ui.json` - 极光流体界面
+- `styles/glassmorphism-light.json` - 轻盈毛玻璃拟态
+- `styles/dark-glassmorphism.json` - 暗黑玻璃拟态
+- `styles/frutiger-aero.json` - 乐观科技风
+- `styles/claymorphism.json` - 黏土拟态
+- `styles/classic-deep-skeuomorphism.json` - 经典深度拟物化
 
 ---
 

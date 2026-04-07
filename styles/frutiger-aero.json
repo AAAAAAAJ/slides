@@ -1,0 +1,62 @@
+{
+  "name": "frutiger-aero",
+  "display_name": "Frutiger Aero",
+  "description": "Frutiger Aero 乐观科技风格 - 玻璃高光、水感气泡、天空草地、2000 年代企业科技乌托邦",
+  "colors": {
+    "background": "#DFF6FF",
+    "palette": ["#7FD8FF", "#BFEFFF", "#7ED957", "#B7F07A", "#FFFFFF"],
+    "contrast": {
+      "black": "#113344",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "airy rounded modules",
+    "margins": "52px",
+    "focus": "center-distributed",
+    "module_gap": "24px"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1px",
+      "color": "rgba(255,255,255,0.9)"
+    },
+    "fills": "glossy-translucent",
+    "decorations": [
+      "glass-panels",
+      "water-bubbles",
+      "lens-flares",
+      "bokeh-light-circles",
+      "soft-wave-swooshes",
+      "sky-and-grass-backdrop"
+    ],
+    "data_viz": [
+      "glossy-stat-cards",
+      "bubble-badges",
+      "rounded-metric-panels"
+    ]
+  },
+  "texture": {
+    "type": "glossy-aero",
+    "noise": false,
+    "halftone": false,
+    "glow": true,
+    "blur": true
+  },
+  "typography": {
+    "headers": "Frutiger / Segoe UI / Helvetica Neue",
+    "body": "Segoe UI / Frutiger / Arial",
+    "numbers": "DIN / Segoe UI Semibold",
+    "sizes": {
+      "hero": "50-64pt",
+      "title": "34-42pt",
+      "subtitle": "20-24pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Frutiger Aero PPT slide, optimistic 2000s tech-utopia aesthetic, glossy translucent glass panels over aqua sky background {background}, bright clean palette {palette}, rounded glossy cards, water bubbles, soft lens flare, bokeh light circles, wave swooshes, fresh eco-tech atmosphere, humanist sans-serif typography, polished corporate future mood, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "dark cyberpunk, dystopian city, brutalist blocks, matte flat minimalism, grunge texture, vintage paper, muted earth tones, harsh shadows, cluttered collage, gothic, rusty industrial, photorealistic people",
+  "tags": ["frutiger-aero", "aero", "2000s", "glass", "glossy", "eco-tech", "optimistic", "utopian"]
+}

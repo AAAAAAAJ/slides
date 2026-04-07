@@ -1,0 +1,63 @@
+{
+  "name": "dark-glassmorphism",
+  "display_name": "Dark Glassmorphism",
+  "description": "暗黑玻璃拟态风格 - 黑透磨砂面板、极光高光、发光核心、AI 控制中枢气质",
+  "colors": {
+    "background": "#05070B",
+    "palette": ["#6EE7FF", "#7C5CFF", "#12D6A0", "#F5F7FF", "#FF9E66"],
+    "contrast": {
+      "black": "#000000",
+      "white": "#F8FAFF"
+    }
+  },
+  "layout": {
+    "grid": "floating control-plane modules",
+    "margins": "48px",
+    "focus": "center-distributed",
+    "module_gap": "24px"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1px",
+      "color": "rgba(255,255,255,0.18)"
+    },
+    "fills": "smoked-blurred-translucent",
+    "decorations": [
+      "smoked-glass-panels",
+      "ambient-aurora-gradients",
+      "luminous-edge-rims",
+      "floating-command-modules",
+      "subtle-reflections",
+      "suppressed-data-backdrop"
+    ],
+    "data_viz": [
+      "glass-kpi-cards",
+      "translucent-metric-panels",
+      "glow-line-graphs",
+      "status-rings"
+    ]
+  },
+  "texture": {
+    "type": "dark-frosted-glass",
+    "noise": false,
+    "halftone": false,
+    "blur": true,
+    "glow": true
+  },
+  "typography": {
+    "headers": "Space Grotesk / SF Pro Display / Sora",
+    "body": "SF Pro Text / Inter / IBM Plex Sans",
+    "numbers": "JetBrains Mono / SF Mono",
+    "sizes": {
+      "hero": "52-64pt",
+      "title": "34-42pt",
+      "subtitle": "20-24pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Dark glassmorphism PPT slide, premium AI control-plane aesthetic, obsidian background {background} with blurred aurora glow, smoked frosted glass panels, translucent KPI cards, thin luminous borders, subtle reflections, accent colors {palette}, clean modern sans-serif typography, elegant enterprise SaaS dashboard atmosphere, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "bright white background, pastel glass, brutalist blocks, vintage paper, photorealistic people, thick black outlines, playful stickers, rustic textures, cluttered collage, flat cartoon illustration, low-contrast text",
+  "tags": ["dark-glassmorphism", "glassmorphism", "ai-ui", "control-plane", "saas", "translucent", "premium", "dark-mode"]
+}

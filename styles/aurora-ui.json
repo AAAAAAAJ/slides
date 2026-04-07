@@ -1,0 +1,62 @@
+{
+  "name": "aurora-ui",
+  "display_name": "Aurora UI",
+  "description": "极光流体界面风格 - 深色底、mesh gradient 极光流体、暗色毛玻璃、细亮边框、AI 原生高级感",
+  "colors": {
+    "background": "#070B14",
+    "palette": ["#4DA3FF", "#66F5FF", "#8B5CFF", "#FF5FD2", "#4DE2C5"],
+    "contrast": {
+      "black": "#04060B",
+      "white": "#F6FAFF"
+    }
+  },
+  "layout": {
+    "grid": "precision dark bento",
+    "margins": "56px",
+    "focus": "top-left hero",
+    "module_gap": "24px"
+  },
+  "elements": {
+    "outlines": {
+      "present": true,
+      "width": "1px",
+      "color": "rgba(255,255,255,0.18)"
+    },
+    "fills": "blurred-aurora-glass",
+    "decorations": [
+      "mesh-gradients",
+      "aurora-glow-fields",
+      "dark-frosted-panels",
+      "laser-edge-highlights",
+      "floating-gradient-orbs",
+      "precision-grid-hints"
+    ],
+    "data_viz": [
+      "glass-stat-cards",
+      "thin-line-graphs",
+      "ambient-metric-panels"
+    ]
+  },
+  "texture": {
+    "type": "aurora-glow",
+    "noise": true,
+    "halftone": false,
+    "blur": true,
+    "glow": true
+  },
+  "typography": {
+    "headers": "Inter / Soehne / SF Pro Display",
+    "body": "Inter / SF Pro Text / Helvetica Neue",
+    "numbers": "IBM Plex Mono / SF Mono / JetBrains Mono",
+    "sizes": {
+      "hero": "54-68pt",
+      "title": "34-42pt",
+      "subtitle": "20-24pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Aurora UI style PPT slide, premium AI-native interface aesthetic, deep dark background {background}, cinematic mesh gradient aurora glow, dark frosted glass panels, accent colors {palette}, precise bento layout, thin luminous borders, ambient bloom, floating gradient orb accents, crisp modern sans-serif typography, high-end SaaS product presentation, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "retro, vintage, paper texture, brutalist blocks, thick black outlines, cute clay 3d, pixel art, photorealistic people, busy collage, warm beige corporate template, flat white background, rustic, hand-drawn, heavy skeuomorphic materials",
+  "tags": ["aurora-ui", "mesh-gradient", "dark-mode", "glassmorphism", "ai-native", "saas", "premium", "futuristic"]
+}

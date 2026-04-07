@@ -1,0 +1,60 @@
+{
+  "name": "bento-grid",
+  "display_name": "Bento Grid",
+  "description": "便当盒网格风格 - 不对称但严密贴合的圆角卡片矩阵，高密度信息海报化排布",
+  "colors": {
+    "background": "#F6F4EF",
+    "palette": ["#1F2937", "#4F7CFF", "#6FD3C0", "#FFB36A", "#FFFFFF"],
+    "contrast": {
+      "black": "#111111",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "asymmetric bento matrix",
+    "margins": "32px",
+    "focus": "distributed",
+    "module_gap": "16px"
+  },
+  "elements": {
+    "outlines": {
+      "present": false,
+      "width": "0px",
+      "color": "#000000"
+    },
+    "fills": "clean-card-surfaces",
+    "decorations": [
+      "rounded-rectangle-cards",
+      "hero-stat-blocks",
+      "feature-modules",
+      "icon-panels",
+      "screenshot-cards"
+    ],
+    "data_viz": [
+      "kpi-cards",
+      "mini-charts",
+      "comparison-blocks"
+    ]
+  },
+  "texture": {
+    "type": "clean-minimal",
+    "noise": false,
+    "halftone": false,
+    "shadow": true
+  },
+  "typography": {
+    "headers": "Inter / SF Pro Display / Helvetica Neue",
+    "body": "Inter / SF Pro Text / DM Sans",
+    "numbers": "SF Mono / Geist Mono / Inter Tight",
+    "sizes": {
+      "hero": "50-64pt",
+      "title": "30-40pt",
+      "subtitle": "18-24pt",
+      "body": "15-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Bento Grid PPT slide, modular rounded rectangle card layout, asymmetric but tightly aligned grid, clean neutral background {background}, accent colors {palette}, hero title block, smaller KPI cards, product screenshot module, crisp hierarchy, subtle shadows, premium product showcase aesthetic, polished information design, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "messy collage, brutalist black outlines, cyberpunk neon, vintage paper, photorealistic people, excessive gradients, ornate decoration, loose spacing, chaotic infographic clutter",
+  "tags": ["bento-grid", "modular", "cards", "product-showcase", "dashboard", "information-design", "apple-style", "saas"]
+}

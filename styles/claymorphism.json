@@ -1,0 +1,61 @@
+{
+  "name": "claymorphism",
+  "display_name": "Claymorphism",
+  "description": "黏土拟态风格 - 软糯厚实体、圆角卡片、糖果色、玩具般 3D 触感",
+  "colors": {
+    "background": "#FFF6EE",
+    "palette": ["#FF7A59", "#6EC5FF", "#FFD85E", "#7EE2B8", "#B79CFF"],
+    "contrast": {
+      "black": "#1F1F1F",
+      "white": "#FFFFFF"
+    }
+  },
+  "layout": {
+    "grid": "chunky modular cards",
+    "margins": "48px",
+    "focus": "center",
+    "module_gap": "24px"
+  },
+  "elements": {
+    "outlines": {
+      "present": false,
+      "width": "0px",
+      "color": "#000000"
+    },
+    "fills": "soft-gradient",
+    "decorations": [
+      "inflated-rounded-cards",
+      "pill-buttons",
+      "bubble-icons",
+      "floating-badges",
+      "rounded-progress-bars"
+    ],
+    "data_viz": [
+      "chunky-stat-cards",
+      "playful-bars",
+      "toy-like-infographics"
+    ]
+  },
+  "texture": {
+    "type": "soft-plastic",
+    "noise": false,
+    "halftone": false,
+    "gloss": true
+  },
+  "typography": {
+    "headers": "Baloo 2 / Fredoka / Archivo Black",
+    "body": "Nunito / Inter / DM Sans",
+    "numbers": "Archivo Black / Nunito ExtraBold",
+    "style": "friendly rounded sans-serif",
+    "sizes": {
+      "hero": "56-72pt",
+      "title": "36-48pt",
+      "subtitle": "22-28pt",
+      "body": "16-18pt",
+      "caption": "12-14pt"
+    }
+  },
+  "prompt_template": "Claymorphism style, soft chunky 3D clay interface, thick toy-like rounded cards, creamy background {background}, candy colors {palette}, inflated pill buttons, bright inner highlights, soft bottom-right shadows, tactile depth, bubbly icons, smooth plastic texture, friendly high-contrast typography, clean single-slide presentation composition, --ar {aspect_ratio} --style raw --v 6",
+  "negative_prompt": "thin sharp edges, brutalist, wireframe, metallic chrome, photorealistic toys, grunge, dark horror aesthetic, low contrast, realistic humans, cluttered text, tiny details",
+  "tags": ["claymorphism", "soft-ui", "playful", "3d", "toy-like", "rounded", "gamified", "friendly"]
+}
