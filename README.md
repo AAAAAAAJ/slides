@@ -299,6 +299,22 @@ Classic deep skeuomorphic PPT slide, pre-iOS7 Apple and Mac OS X Aqua inspired i
 
 ---
 
+## Generate with Atlas Cloud
+
+The included generator submits a prompt to Atlas Cloud, waits for the image task, and downloads the finished 16:9 slide. It uses only the Python standard library.
+
+```bash
+export ATLASCLOUD_API_KEY="your-api-key"
+
+python3 scripts/generate_slide.py \
+  --prompt "Retro pop art presentation slide, bold title, 16:9" \
+  --output slide.png
+```
+
+The default model is `google/nano-banana-2/text-to-image` at 2K resolution. Use `--model`, `--resolution`, or `--aspect-ratio` to select another Atlas Cloud image model or output format.
+
+---
+
 ## Tips for Best Results
 
 1. **Be specific** - "thick black outlines" works better than "bold lines"
