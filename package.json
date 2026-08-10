@@ -18,7 +18,8 @@
     "PROMPTS.md",
     "CLAUDE.md",
     "LICENSE",
-    ".openclaw/"
+    ".openclaw/",
+    "scripts/"
   ],
   "keywords": [
     "ppt",
@@ -43,6 +44,7 @@
     "example": "Generate a PPT slide in retro-pop style about Y Combinator"
   },
   "scripts": {
-    "test": "echo \"No tests specified\""
+    "generate:atlas": "python3 scripts/generate_slide.py",
+    "test": "python3 -m unittest discover -s tests -v"
   }
 }

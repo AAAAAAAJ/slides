@@ -23,6 +23,13 @@ Modify text content as needed
 ### Step 3: Generate
 Paste into nanobanana2 (gemini-3.1-flash-image-preview)
 
+Or generate the slide directly with Atlas Cloud:
+
+```bash
+export ATLASCLOUD_API_KEY="your-api-key"
+python3 scripts/generate_slide.py --prompt "<your customized prompt>" --output slide.png
+```
+
 ## Available Styles
 
 | Style | Description |
